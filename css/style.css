@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+}
+.firstheading h4{
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.createnew-account{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+   
+}
+.createnew-account h2{
+    margin-bottom:10px ;
+}
+.createnew-account p{
+    margin-bottom: 5px;
+}
+.createnew-account input{
+    padding: 10px;
+    margin: 7px 0px ;
+}
+.createnew-account .name input{
+   
+     margin-left: 1.8px;
+}
+.createnew-account .heifull{
+   width: 90%;
+}
+
+.createnew-account form #errort,.createnew-account form #errorps,#password-error,#dob-error{
+    color: red;
+    font-size: 12px;
+}
+form .btn1{
+    padding: 14px 10px;
+    background-color: rgb(22, 84, 143);
+    display: block;
+    margin:20px auto;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+}
